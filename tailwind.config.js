@@ -4,8 +4,8 @@ module.exports = {
 
   theme: {
     fontFamily: {
-      sans: ["Graphik", "sans-serif"],
-      serif: ["Merriweather", "serif"],
+      sans: ["Poppins", "sans-serif"],
+      serif: ["Playfair Display", "serif"],
     },
     extend: {
       spacing: {
@@ -16,12 +16,11 @@ module.exports = {
         "4xl": "2rem",
       },
       colors: {
-        primary: "#E74646",
-        secondary: "#FA9884",
-        muted: "#FFE5CA",
-        pastel: "#FFFBF5",
-        light: "#F7F1EB",
-        pastelBlue: "#ECF2FF",
+        primary: "#FF6B6B",      // Vibrant coral-red
+        secondary: "#FFD700",    // Bright gold
+        tertiary: "#48FF7B",     // Electric green
+        accent: "#A020F0",       // Rich purple
+        background: "#F0F0F0",   // Light gray background
       },
     },
   },
